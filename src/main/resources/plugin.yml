@@ -1,0 +1,12 @@
+name: NostalgiaLib
+version: 1.0.0
+author: moderator_man
+description: Adds plugin utility functions, such as the PEX command framework
+main: net.oldschoolminecraft.nlib.NostalgiaLib
+commands:
+  nostalgialib:
+    description: The one-stop shop for managing NostalgiaLib
+    default: op
+    permission: nlib.admin
+    aliases:
+      - nlib
